@@ -8,5 +8,5 @@ subjects:
     namespace: rhacm-pools
 roleRef:
   apiGroup: rbac.authorization.k8s.io
-  kind: Role
+  kind: ClusterRole
   name: clusterpool-postinstall-import-claimed-cluster-role
