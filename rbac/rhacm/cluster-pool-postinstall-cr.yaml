@@ -17,3 +17,11 @@ rules:
     verbs:
       - list
       - get
+  - apiGroups:
+      - ""
+    resources:
+      - secrets
+    verbs:
+      - list
+      - get
+      - create
