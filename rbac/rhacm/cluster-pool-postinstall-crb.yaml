@@ -4,7 +4,7 @@ metadata:
   name: clusterpool-postinstall-import-claimed-cluster-role-binding
 subjects:
   - kind: ServiceAccount
-    name: default
+    name: cluster-claim-mediator
     namespace: rhacm-clusterpools
 roleRef:
   apiGroup: rbac.authorization.k8s.io
