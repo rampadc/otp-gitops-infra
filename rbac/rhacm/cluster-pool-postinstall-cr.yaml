@@ -35,3 +35,12 @@ rules:
       - list
       - patch
       - get
+  - apiGroups:
+      - cluster.open-cluster-management.io
+    resources:
+      - managedclustersets
+    verbs:
+      - list
+      - get
+      - patch
+      - create
