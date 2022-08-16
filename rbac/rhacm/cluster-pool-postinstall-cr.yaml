@@ -9,3 +9,11 @@ rules:
       - managedclusters
     verbs:
       - list
+      - get
+  - apiGroups:
+      - hive.openshift.io
+    resources:
+      - clusterclaims
+    verbs:
+      - list
+      - get
