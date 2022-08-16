@@ -10,6 +10,8 @@ rules:
     verbs:
       - list
       - get
+      - patch
+      - create
   - apiGroups:
       - hive.openshift.io
     resources:
@@ -31,4 +33,5 @@ rules:
       - namespaces
     verbs:
       - list
+      - patch
       - get
